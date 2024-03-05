@@ -7,6 +7,10 @@ ul {
     padding: 0;
 }
 
+header {
+    background-color: gray;
+    padding: 1px;
+}
 header li {
     display: inline;
     border: solid;
