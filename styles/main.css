@@ -1,7 +1,50 @@
 body {
-    background-color: rgb(53, 0, 53);
+    text-align: center;
+    background-color: aquamarine;
+    margin: 0;
+}
+ul {
+    padding: 0;
 }
 
-h1 {}
-h2 {}
-p {}
+header li {
+    display: inline;
+    border: solid;
+    padding: 2px;
+    background-color: aqua;
+}
+
+main {
+    margin: 8;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+
+main li {
+    margin: 8;
+    font-size: 20px;
+}
+
+.ul_box{
+    border: solid;
+}
+
+main ul {
+    list-style-type: none;
+    
+}
+
+footer p {
+    text-align: left;
+    background-color: gray;
+    font-size: 15px;
+    color: black;
+    padding: 8px;
+}
