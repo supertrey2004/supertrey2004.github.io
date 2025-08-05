@@ -20,7 +20,7 @@ setInterval(() => {
 
 
 
-
+/*
 var jokeSet = document.querySelector("#joke")
 var jokePunch = document.querySelector("#joke2")
 
@@ -31,7 +31,7 @@ fetch("https://official-joke-api.appspot.com/jokes/random").then(Response => {
         jokePunch.textContent = data.punchline
     })
 })
-
+*/
 
 
 function img(onOff, URL) {
