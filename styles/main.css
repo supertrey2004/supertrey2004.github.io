@@ -17,6 +17,11 @@ header li {
     padding: 2px;
     background-color: aqua;
 }
+hr {
+    border: solid;
+    border-width: 2px;
+}
+
 
 main {
     margin: 8;
@@ -44,6 +49,13 @@ main li {
 
 .ul_box{
     border: solid;
+}
+
+.img_pro {
+    width: 200px;
+    height: 100px;
+    border: solid;
+    border-radius: 1%;
 }
 
 main ul {

@@ -1,7 +1,7 @@
 
 
 
-var imagesArray = ["MyPicByWilliam.jpg", "DragonByWilliam.jpg"];
+var imagesArray = ["MyPicByWilliam.jpg", "WWIIgun.jpg"];
 var imageState = 0;
 
 img(true,imagesArray[0])
@@ -37,7 +37,7 @@ fetch("https://official-joke-api.appspot.com/jokes/random").then(Response => {
 function img(onOff, URL) {
     var img = document.getElementById("img");
     if (onOff) {
-        img.innerHTML = "<img src=images/" + URL + ">"
+        img.innerHTML = "<img src=images/Home/" + URL + ">"
     } else {
         img.innerHTML = ""
     }
