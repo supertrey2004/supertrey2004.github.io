@@ -58,6 +58,10 @@ main li {
     border-radius: 1%;
 }
 
+.description {
+    font-size: 15px;
+}
+
 main ul {
     list-style-type: none;
     
